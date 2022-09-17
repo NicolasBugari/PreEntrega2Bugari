@@ -146,7 +146,7 @@ nav{
 }
 .section1{
     display: inline-block;
-    background-image: url("../fotos/Fondopaginas/FONDO1.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../fotos/Fondopaginas/FONDO1.jpg");
     border-radius: 5px;
     border-style: double;
     border-color: antiquewhite;
@@ -241,9 +241,9 @@ h5{
 }
 footer{
     background-color: rgb(36, 93, 167);
-    height: 50px;
+    height: 70px;
     text-align: center;
-    margin: 80px;
+    margin: 50px;
     border-style: outset;
 }
 h6{
@@ -281,9 +281,10 @@ p2{
     text-justify: auto;
 }
 .contactos{
-    height: 170px;
+    height: 250px;
     background-color: rgb(4, 116, 64,0.788);
     color: thistle;
+    padding-top: 20px;
 }
 .Inicio{
     text-align: right;
