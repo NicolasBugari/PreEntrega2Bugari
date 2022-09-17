@@ -92,15 +92,14 @@ nav{
     padding: 50px;
     border-radius: 10px;
     text-align: center;
-    padding-bottom: 150px;
     height: 450px;
 
 }
 .plantas{
     border-style: outset;
-    padding: 80px;
+    padding: 50px;
     border-radius: 10px;
-    text-align: center;
+    height: 500px;
 }
 .menu{
     background-color: rgb(36, 93, 167);
@@ -150,7 +149,7 @@ nav{
     border-radius: 5px;
     border-style: double;
     border-color: antiquewhite;
-    height: 1700px;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +162,7 @@ nav{
 }
 .section2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../fotos/Fondopaginas/FONDOPLANTAS.jpg");
-    height: 1800px;
+    height: auto;
     border-radius: 5px;
     border-spacing: 10px;
     border-style: double;
@@ -179,7 +178,7 @@ nav{
 }
 .section3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../fotos/Fondopaginas/FONDO3.jpg");
-    height: 2200px;
+    height: auto;
     border-radius: 5px;
     border-style: double;
     border-spacing: 10px;
@@ -194,7 +193,7 @@ nav{
 }
 .section4{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../fotos/Fondopaginas/FONDO2.jpg");
-    height: 1900px;
+    height: auto;
     border-radius: 5px;
     border-style: double;
     background-attachment: fixed;
@@ -220,7 +219,7 @@ nav{
 }
 .section6{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../fotos/Fondopaginas/FONDO3.jpg");
-    height: 1400px;
+    height: auto;
     border-radius: 5px;
     border-style: double;
     border-spacing: 10px;
