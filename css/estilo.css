@@ -81,11 +81,32 @@ header{
 nav{
     text-align: center;  
 }
-.Peces{
+.cabezadeleon{
+    float: left;
     border-style: outset;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
-    height: 500px;
+    animation-duration: 5s;
+}
+.cometa{
+    float: left;
+    border-style: outset;
+    padding: 20px;
+    border-radius: 10px;
+    animation-duration: 5s;
+}
+.dorado{
+    float: left;
+    border-style: outset;
+    padding: 20px;
+    border-radius: 10px;
+    animation-duration: 5s;
+}
+.telescopico{
+    float: left;
+    border-style: outset;
+    padding: 20px;
+    border-radius: 10px;
     animation-duration: 5s;
 }
 .peceras{
@@ -94,7 +115,6 @@ nav{
     border-radius: 10px;
     text-align: center;
     height: 450px;
-
 }
 .plantas{
     border-style: outset;
@@ -179,7 +199,6 @@ nav{
 }
 .section3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../fotos/Fondopaginas/FONDO3.jpg");
-    height: auto;
     border-radius: 5px;
     border-style: double;
     border-spacing: 10px;
@@ -189,6 +208,7 @@ nav{
     background-size: cover;
     padding: 20px;
     margin: 40px;
+    height: 1800px;
     color: rgb(194, 228, 213);
     font-family: "Nunito", sans-serif;
 }
@@ -245,6 +265,7 @@ footer{
     text-align: center;
     margin: 50px;
     border-style: outset;
+    float: none;
 }
 h6{
     padding: 10px;
@@ -285,6 +306,7 @@ p2{
     background-color: rgb(4, 116, 64,0.788);
     color: thistle;
     padding-top: 20px;
+    float: none;
 }
 .Inicio{
     text-align: right;
@@ -296,4 +318,17 @@ p2{
 }
 .animate__animated{
     animation-delay: 1s;
+}
+@media only screen and (min-width: 576px){
+    .pez{
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 920px){
+    .pez{
+        width: 25%;
+        padding: 20px;
+    }
 }
