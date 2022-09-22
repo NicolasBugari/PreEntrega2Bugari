@@ -97,10 +97,9 @@ nav{
 }
 .dorado{
     float: left;
-    border-style: outset;
-    padding: 20px;
-    border-radius: 10px;
     animation-duration: 5s;
+    border-style: outset;
+    border-radius: 10px;
 }
 .telescopico{
     float: left;
@@ -199,16 +198,13 @@ nav{
 }
 .section3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../fotos/Fondopaginas/FONDO3.jpg");
-    border-radius: 5px;
-    border-style: double;
-    border-spacing: 10px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     margin: 40px;
-    height: 1800px;
+    height: 1200px;
     color: rgb(194, 228, 213);
     font-family: "Nunito", sans-serif;
 }
