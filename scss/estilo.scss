@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/Nunito-VariableFont_wght.ttf);
+}
+  @font-face {
+    font-family: "Abrilfatface";
+    src: url(../assets/AbrilFatface-Regular.ttf);
+}
+$tittle-font: "Abrilfatface";
+$text-font: "Nunito";
+$color-tittle: rgb(73, 173, 90);
+$color-menu: rgb(36, 93, 167);
+$color-tittle-back: rgba(4, 116, 64, 0.788);
+$color-body-back: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%);
+$color-foot: rgb(147, 212, 184);
+$color-text-back: rgba(27, 109, 54, 0.521);
+
+h1.tittle {
+    padding: 30px;
+    margin: 50px;
+    color: $color-tittle;
+    -webkit-text-decoration: double;
+            text-decoration: double;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 150px;
+    font-family: $tittle-font, sans-serif;
+    text-align: center;
+    letter-spacing: 7px;
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.74);
+    -webkit-animation: zoomIn;
+            animation: zoomIn;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    background-image: url(../fotos/Fondopaginas/Fondo-Oceano.jpg);
+    height: 400px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  .menu {
+    background-color: $color-menu;
+    border-style: double;
+    border-color: $color-foot;
+    border-radius: 5px;
+    padding: 0;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .menu .item {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .menu .submenu {
+    position: absolute;
+    display: none;
+  }
+  
+  .menu .submenu .sub_i {
+    display: block;
+    font-size: 0.8rem;
+    padding: 1px;
+    border: 5px;
+    border-left: solid #172735;
+  }
+  
+  .menu .item a {
+    color: $color-tittle;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .menu .item:hover .submenu {
+    display: block;
+    color: $color-foot;
+  }
+  
+  .menu .item:hover a {
+    background-color: $color-tittle-back;
+    color: $color-foot;
+  }
+  h1, h2, h3, h4 {
+    font-family: $tittle-font, sans-serif;
+    background-color: $color-tittle-back;
+    color: $color-foot;
+    border-style: groove;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
+  h2 {
+    background-color: $color-text-back;
+  }
+  h5.derechos {
+        color: $color-foot;
+        text-align: center;
+        padding: 10px;
+        list-style-type: none;
+  }
+  .Inicio {
+    text-align: right;
+  }
+  p1.text1 {
+    padding: 30px;
+    margin: 50px;
+    color: aquamarine;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+  }
+  p2.text2 {
+    text-align: center;
+    font-size: 20px;
+    text-justify: auto;
+  }
+  
+  .section1 {
+    display: inline-block;
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO1.jpg");
+    border-radius: 5px;
+    border-style: double;
+    border-color: $color-foot;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: 40px;
+    font-size: 10px;
+    font-family: $text-font, sans-serif;
+    letter-spacing: 1px;
+  }
+  .section2 {
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDOPLANTAS.jpg");
+    height: auto;
+    border-radius: 5px;
+    border-spacing: 10px;
+    border-style: double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 20px;
+    margin: 60px;
+    color: $color-foot;
+    font-family: $text-font, sans-serif;
+  }
+  
+  .section3 {
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 40px;
+    height: 1200px;
+    color: $color-foot;
+    font-family: $text-font , sans-serif;
+  }
+  
+  .section4 {
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO2.jpg");
+    height: auto;
+    border-radius: 5px;
+    border-style: double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: 20px;
+    color: aquamarine;
+    font-family: $text-font , sans-serif;
+  }
+  
+  .section5 {
+    border-radius: 5px;
+    border-style: double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: 50px;
+    color: aquamarine;
+    font-family: $text-font , sans-serif;
+  }
+  
+  .section6 {
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
+    height: auto;
+    border-radius: 5px;
+    border-style: double;
+    border-spacing: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 40px;
+    color: $color-foot;
+    font-family: $text-font , sans-serif;
+  }
+  .contactos {
+    height: 250px;
+    background-color: $color-tittle-back;
+    color: thistle;
+    padding-top: 20px;
+    float: none;
+  }
+  .formulario {
+    font-size: 20px;
+    font-family: $tittle-font, sans-serif;
+    letter-spacing: 3px;
+  }
+  .animate__animated {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .container {
+    background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

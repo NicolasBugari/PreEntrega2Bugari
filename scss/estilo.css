@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Abrilfatface";
+  src: url(../assets/AbrilFatface-Regular.ttf);
+}
+h1.tittle {
+  padding: 30px;
+  margin: 50px;
+  color: rgb(73, 173, 90);
+  -webkit-text-decoration: double;
+  text-decoration: double;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 150px;
+  font-family: "Abrilfatface", sans-serif;
+  text-align: center;
+  letter-spacing: 7px;
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.74);
+  -webkit-animation: zoomIn;
+  animation: zoomIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  background-image: url(../fotos/Fondopaginas/Fondo-Oceano.jpg);
+  height: 400px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.menu {
+  background-color: rgb(36, 93, 167);
+  border-style: double;
+  border-color: rgb(147, 212, 184);
+  border-radius: 5px;
+  padding: 0;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.menu .item {
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.menu .submenu {
+  position: absolute;
+  display: none;
+}
+
+.menu .submenu .sub_i {
+  display: block;
+  font-size: 0.8rem;
+  padding: 1px;
+  border: 5px;
+  border-left: solid #172735;
+}
+
+.menu .item a {
+  color: rgb(73, 173, 90);
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 20px;
+}
+
+.menu .item:hover .submenu {
+  display: block;
+  color: rgb(147, 212, 184);
+}
+
+.menu .item:hover a {
+  background-color: rgba(4, 116, 64, 0.788);
+  color: rgb(147, 212, 184);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Abrilfatface", sans-serif;
+  background-color: rgba(4, 116, 64, 0.788);
+  color: rgb(147, 212, 184);
+  border-style: groove;
+  text-align: center;
+  padding: 20px;
+  list-style: none;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+h2 {
+  background-color: rgba(27, 109, 54, 0.521);
+}
+
+h5.derechos {
+  color: rgb(147, 212, 184);
+  text-align: center;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.Inicio {
+  text-align: right;
+}
+
+p1.text1 {
+  padding: 30px;
+  margin: 50px;
+  color: aquamarine;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  text-align: center;
+}
+
+p2.text2 {
+  text-align: center;
+  font-size: 20px;
+  text-justify: auto;
+}
+
+.section1 {
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%), url("../fotos/Fondopaginas/FONDO1.jpg");
+  border-radius: 5px;
+  border-style: double;
+  border-color: rgb(147, 212, 184);
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin: 40px;
+  font-size: 10px;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1px;
+}
+
+.section2 {
+  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%), url("../fotos/Fondopaginas/FONDOPLANTAS.jpg");
+  height: auto;
+  border-radius: 5px;
+  border-spacing: 10px;
+  border-style: double;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 20px;
+  margin: 60px;
+  color: rgb(147, 212, 184);
+  font-family: "Nunito", sans-serif;
+}
+
+.section3 {
+  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%), url("../fotos/Fondopaginas/FONDO3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 40px;
+  height: 1200px;
+  color: rgb(147, 212, 184);
+  font-family: "Nunito", sans-serif;
+}
+
+.section4 {
+  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%), url("../fotos/Fondopaginas/FONDO2.jpg");
+  height: auto;
+  border-radius: 5px;
+  border-style: double;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin: 20px;
+  color: aquamarine;
+  font-family: "Nunito", sans-serif;
+}
+
+.section5 {
+  border-radius: 5px;
+  border-style: double;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin: 50px;
+  color: aquamarine;
+  font-family: "Nunito", sans-serif;
+}
+
+.section6 {
+  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%), url("../fotos/Fondopaginas/FONDO3.jpg");
+  height: auto;
+  border-radius: 5px;
+  border-style: double;
+  border-spacing: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 40px;
+  color: rgb(147, 212, 184);
+  font-family: "Nunito", sans-serif;
+}
+
+.contactos {
+  height: 250px;
+  background-color: rgba(4, 116, 64, 0.788);
+  color: thistle;
+  padding-top: 20px;
+  float: none;
+}
+
+.formulario {
+  font-size: 20px;
+  font-family: "Abrilfatface", sans-serif;
+  letter-spacing: 3px;
+}
+
+.animate__animated {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.container {
+  background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=estilo.css.map */
