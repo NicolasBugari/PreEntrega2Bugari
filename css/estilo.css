@@ -181,7 +181,6 @@ h5.derechos {
 }
 
 .pez {
-  float: left;
   border-style: outset;
   padding: 20px;
   border-radius: 10px;
@@ -196,7 +195,7 @@ h5.derechos {
 
 .peceras {
   border-style: outset;
-  padding: 50px;
+  padding: 20px;
   border-radius: 10px;
   text-align: center;
   height: 400px;
@@ -208,10 +207,10 @@ h5.derechos {
 }
 
 .plantas {
+  float: left;
   border-style: outset;
-  padding: 50px;
+  padding: 20px;
   border-radius: 10px;
-  height: 500px;
 }
 
 .imgplantas {
@@ -267,7 +266,7 @@ p2.text2 {
   background-size: cover;
   background-blend-mode: darken;
   padding: 20px;
-  margin: 60px;
+  margin: 30px;
   color: rgb(147, 212, 184);
   font-family: "Nunito", sans-serif;
 }
@@ -351,8 +350,8 @@ p2.text2 {
 }
 
 footer {
-  background-color: rgb(36, 93, 167);
   height: 70px;
+  width: auto;
   text-align: center;
   margin: 50px;
   border-style: outset;

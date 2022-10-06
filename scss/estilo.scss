@@ -176,7 +176,6 @@ h1.tittle {
     width: 27vw;
   }
   .pez {
-    float: left;
     border-style: outset;
     padding: 20px;
     border-radius: 10px; 
@@ -189,7 +188,7 @@ h1.tittle {
   }
   .peceras {
     border-style: outset;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
     height: 400px;
@@ -199,10 +198,10 @@ h1.tittle {
     width: 20vw;
   }
   .plantas {
+    float: left;
     border-style: outset;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
-    height: 500px;
   }
   .imgplantas{
     height: 30vh;
@@ -254,7 +253,7 @@ h1.tittle {
     background-size: cover;
     background-blend-mode: darken;
     padding: 20px;
-    margin: 60px;
+    margin: 30px;
     color: $color-foot;
     font-family: $text-font, sans-serif;
   }
@@ -333,8 +332,8 @@ h1.tittle {
     background-size: cover;
   }
   footer {
-    background-color: rgb(36, 93, 167);
     height: 70px;
+    width: auto;
     text-align: center;
     margin: 50px;
     border-style: outset;
