@@ -94,9 +94,13 @@ nav {
   float: left;
   border-style: outset;
   padding: 20px;
-  border-radius: 10px;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;             
+  border-radius: 10px; 
+}
+.animate__animated {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  height: 30vh;
+  width: 20vw;
 }
 .peceras {
   border-style: outset;
@@ -210,7 +214,7 @@ nav {
   background-size: cover;
   padding: 20px;
   margin: 40px;
-  height: 1700px;
+  height: auto;
   color: rgb(194, 228, 213);
   font-family: "Nunito", sans-serif;
 }
@@ -224,22 +228,22 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
-  margin: 20px;
-  color: aquamarine;
+  padding: 20px;
+  margin: 40px;
+  color: rgb(194, 228, 213);
   font-family: "Nunito", sans-serif;
-  object-fit: scale-down;
 }
 
 .section5 {
+  height: auto;
   border-radius: 5px;
   border-style: double;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
-  margin: 50px;
+  padding: 20px;
+  margin: 40px;
   color: aquamarine;
   font-family: "Nunito", sans-serif;
 }
@@ -288,7 +292,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 150px;
+  font-size: 12vh;
   font-family: "Abrilfatface", sans-serif;
   text-align: center;
   letter-spacing: 7px;
@@ -298,7 +302,7 @@ h1 {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   background-image: url(../fotos/Fondopaginas/Fondo-Oceano.jpg);
-  height: 400px;
+  height: 40vh;
   border-style: solid;
   border-radius: 5px;
 }
@@ -338,11 +342,6 @@ p2 {
   font-size: 20px;
   font-family: "Abrilfatface", sans-serif;
   letter-spacing: 3px;
-}
-
-.animate__animated {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
 }
 .container {
   background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
