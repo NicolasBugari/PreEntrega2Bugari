@@ -176,6 +176,7 @@ h1.tittle {
     width: 27vw;
   }
   .pez {
+    float: left;
     border-style: outset;
     padding: 20px;
     border-radius: 10px; 
@@ -187,11 +188,11 @@ h1.tittle {
     width: 20vw;
   }
   .peceras {
+    float: left;
     border-style: outset;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    height: 400px;
   }
   .imgpeceras{
     height: 30vh;

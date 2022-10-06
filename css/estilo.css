@@ -181,6 +181,7 @@ h5.derechos {
 }
 
 .pez {
+  float: left;
   border-style: outset;
   padding: 20px;
   border-radius: 10px;
@@ -194,11 +195,11 @@ h5.derechos {
 }
 
 .peceras {
+  float: left;
   border-style: outset;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  height: 400px;
 }
 
 .imgpeceras {
