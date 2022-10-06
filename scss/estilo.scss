@@ -171,6 +171,10 @@ h1.tittle {
   .Inicio {
     text-align: right;
   }
+  .imgindex {
+    height: 35vh;
+    width: 27vw;
+  }
   .pez {
     float: left;
     border-style: outset;
@@ -227,12 +231,13 @@ h1.tittle {
     border-style: double;
     border-color: $color-foot;
     height: auto;
+    width: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
-    margin: 40px;
+    margin: 30px;
     font-size: 10px;
     font-family: $text-font, sans-serif;
     letter-spacing: 1px;
@@ -322,7 +327,6 @@ h1.tittle {
     letter-spacing: 3px;
   }
   .container {
-    background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
