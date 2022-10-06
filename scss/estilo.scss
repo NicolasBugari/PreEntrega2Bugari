@@ -188,6 +188,7 @@ h1.tittle {
     margin: 20px;
     color: aquamarine;
     font-family: $text-font , sans-serif;
+    object-fit: scale-down;
   }
   
   .section5 {
@@ -232,7 +233,7 @@ h1.tittle {
   }
   .animate__animated {
     -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    animation-delay: 1s;
   }
   .container {
     background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
