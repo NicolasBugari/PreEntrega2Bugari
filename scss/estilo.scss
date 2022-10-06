@@ -11,6 +11,7 @@ $text-font: "Nunito";
 $color-tittle: rgb(73, 173, 90);
 $color-menu: rgb(36, 93, 167);
 $color-tittle-back: rgba(4, 116, 64, 0.788);
+$color-image-back: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 $color-body-back: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%, rgb(0, 212, 255) 100%);
 $color-foot: rgb(147, 212, 184);
 $color-text-back: rgba(27, 109, 54, 0.521);
@@ -187,6 +188,10 @@ h1.tittle {
     text-align: center;
     height: 400px;
   }
+  .imgpeceras{
+    height: 30vh;
+    width: 20vw;
+  }
   .plantas {
     border-style: outset;
     padding: 50px;
@@ -215,7 +220,7 @@ h1.tittle {
   
   .section1 {
     display: inline-block;
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO1.jpg");
+    background-image: $color-image-back, url("../fotos/Fondopaginas/FONDO1.jpg");
     border-radius: 5px;
     border-style: double;
     border-color: $color-foot;
@@ -231,7 +236,7 @@ h1.tittle {
     letter-spacing: 1px;
   }
   .section2 {
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDOPLANTAS.jpg");
+    background-image: $color-image-back, url("../fotos/Fondopaginas/FONDOPLANTAS.jpg");
     height: auto;
     border-radius: 5px;
     border-spacing: 10px;
@@ -248,7 +253,7 @@ h1.tittle {
   }
   
   .section3 {
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
+    background-image: $color-image-back, url("../fotos/Fondopaginas/FONDO3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,7 +266,7 @@ h1.tittle {
   }
   
   .section4 {
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO2.jpg");
+    background-image: $color-image-back, url("../fotos/Fondopaginas/FONDO2.jpg");
     height: auto;
     border-radius: 5px;
     border-style: double;
@@ -289,7 +294,7 @@ h1.tittle {
   }
   
   .section6 {
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
+    background-image: $color-image-back, url("../fotos/Fondopaginas/FONDO3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
