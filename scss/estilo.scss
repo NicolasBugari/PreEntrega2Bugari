@@ -15,6 +15,15 @@ $color-body-back: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 190, 108) 44%
 $color-foot: rgb(147, 212, 184);
 $color-text-back: rgba(27, 109, 54, 0.521);
 
+body {
+  background: $color-body-back;
+  font-family: $text-font;
+}
+.logo {
+  width: 100px;
+  border-radius: 10%;
+  border-style: groove;
+}
 h1.tittle {
     padding: 30px;
     margin: 50px;
@@ -27,7 +36,7 @@ h1.tittle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 150px;
+    font-size: 12vh;
     font-family: $tittle-font, sans-serif;
     text-align: center;
     letter-spacing: 7px;
@@ -37,9 +46,55 @@ h1.tittle {
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
     background-image: url(../fotos/Fondopaginas/Fondo-Oceano.jpg);
-    height: 400px;
+    height: 40vh;
     border-style: solid;
     border-radius: 5px;
+  }
+  .Index b {
+    padding: 10px;
+    list-style-type: none;
+    color: #172735;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border-color: $color-foot;
+    font-size: 30px;
+  }
+  .Enlace a {
+    padding: 10px;
+    list-style-type: none;
+    color: #172735;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border-color: $color-foot;
+    font-size: 30px;
+  }
+  .Enlace a:hover {
+    background-color: $color-foot;
+    color: $color-text-back;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: $color-tittle-back;
+    width: 50px;
+    letter-spacing: 8px;
+  }
+  .top {
+    padding: 10px;
+    list-style-type: none;
+    color: $color-foot;
+    text-align: center;
+  }
+  #top {
+    text-align: center;
+  }
+  header {
+    text-align: center;
+    padding: 10px;
+  }
+  nav {
+    text-align: center;
   }
   .menu {
     background-color: $color-menu;
@@ -88,7 +143,7 @@ h1.tittle {
     background-color: $color-tittle-back;
     color: $color-foot;
   }
-  h1, h2, h3, h4 {
+  h2, h3, h4 {
     font-family: $tittle-font, sans-serif;
     background-color: $color-tittle-back;
     color: $color-foot;
@@ -101,6 +156,8 @@ h1.tittle {
   }
   h2 {
     background-color: $color-text-back;
+    height: auto;
+    width: auto;
   }
   h5.derechos {
         color: $color-foot;
@@ -110,6 +167,35 @@ h1.tittle {
   }
   .Inicio {
     text-align: right;
+  }
+  .pez {
+    float: left;
+    border-style: outset;
+    padding: 20px;
+    border-radius: 10px; 
+  }
+  .animate__animated {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    height: 30vh;
+    width: 20vw;
+  }
+  .peceras {
+    border-style: outset;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    height: 400px;
+  }
+  .plantas {
+    border-style: outset;
+    padding: 50px;
+    border-radius: 10px;
+    height: 500px;
+  }
+  .imgplantas{
+    height: 30vh;
+    width: 20vw;
   }
   p1.text1 {
     padding: 30px;
@@ -125,7 +211,6 @@ h1.tittle {
   p2.text2 {
     text-align: center;
     font-size: 20px;
-    text-justify: auto;
   }
   
   .section1 {
@@ -170,7 +255,7 @@ h1.tittle {
     background-size: cover;
     padding: 20px;
     margin: 40px;
-    height: 1200px;
+    height: auto;
     color: $color-foot;
     font-family: $text-font , sans-serif;
   }
@@ -184,38 +269,36 @@ h1.tittle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
-    margin: 20px;
-    color: aquamarine;
+    padding: 20px;
+    margin: 40px;
+    color: $color-foot;
     font-family: $text-font , sans-serif;
-    object-fit: scale-down;
   }
-  
   .section5 {
-    border-radius: 5px;
-    border-style: double;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px;
-    margin: 50px;
-    color: aquamarine;
-    font-family: $text-font , sans-serif;
-  }
-  
-  .section6 {
-    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
     height: auto;
     border-radius: 5px;
     border-style: double;
-    border-spacing: 10px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     margin: 40px;
+    color: $color-foot;
+    font-family: $text-font , sans-serif;
+  }
+  
+  .section6 {
+    background-image: $color-body-back, url("../fotos/Fondopaginas/FONDO3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 40px;
+    height: auto;
+    border-radius: 5px;
+    border-style: double;
     color: $color-foot;
     font-family: $text-font , sans-serif;
   }
@@ -231,14 +314,18 @@ h1.tittle {
     font-family: $tittle-font, sans-serif;
     letter-spacing: 3px;
   }
-  .animate__animated {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-  }
   .container {
     background-image: url(../fotos/Fondopaginas/FONDO3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  footer {
+    background-color: rgb(36, 93, 167);
+    height: 70px;
+    text-align: center;
+    margin: 50px;
+    border-style: outset;
+    float: none;
   }
