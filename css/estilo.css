@@ -89,11 +89,6 @@ h1.tittle {
   text-align: center;
 }
 
-header {
-  text-align: center;
-  padding: 10px;
-}
-
 nav {
   text-align: center;
 }
@@ -236,6 +231,32 @@ p2.text2 {
   font-size: 20px;
 }
 
+.contactos {
+  height: 250px;
+  background-color: rgba(4, 116, 64, 0.788);
+  color: thistle;
+  padding-top: 20px;
+  float: none;
+}
+
+.formulario {
+  font-size: 20px;
+  font-family: "Abrilfatface", sans-serif;
+  letter-spacing: 3px;
+}
+
+.container {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+
 .section1 {
   display: inline-block;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../fotos/Fondopaginas/FONDO1.jpg");
@@ -327,27 +348,6 @@ p2.text2 {
   border-style: double;
   color: rgb(147, 212, 184);
   font-family: "Nunito", sans-serif;
-}
-
-.contactos {
-  height: 250px;
-  background-color: rgba(4, 116, 64, 0.788);
-  color: thistle;
-  padding-top: 20px;
-  float: none;
-}
-
-.formulario {
-  font-size: 20px;
-  font-family: "Abrilfatface", sans-serif;
-  letter-spacing: 3px;
-}
-
-.container {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 footer {
